@@ -17,6 +17,44 @@ InkStrokes is a comprehensive artistic progress tracking application that gamifi
 - **🎮 Gamification**: Achievement system, streaks, milestones, and progress celebrations
 - **🎨 Modern UI/UX**: Beautiful, responsive interface with dark/light themes
 
+## 🚀 Quick Start
+
+### Clone the Repository
+```bash
+git clone https://github.com/utkarsh-brainstorm/InkStrokes.git
+cd InkStrokes
+```
+
+**Having trouble cloning?** If Git asks for username/password:
+```bash
+# Try this instead
+GIT_TERMINAL_PROMPT=0 git clone https://github.com/utkarsh-brainstorm/InkStrokes.git
+```
+
+### Installation
+1. **Install Node.js dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Install Python dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set up environment variables:**
+   ```bash
+   cp .env.example .env
+   # Edit .env with your configuration
+   ```
+
+4. **Start the application:**
+   ```bash
+   ./start_servers.sh
+   ```
+
+For detailed setup instructions, see [SETUP.md](SETUP.md).
+
 ## ✨ Features
 
 ### 🎨 Core Features
