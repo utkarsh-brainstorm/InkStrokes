@@ -20,14 +20,22 @@ InkStrokes is a comprehensive artistic progress tracking application that gamifi
 ## 🚀 Quick Start
 
 ### Clone the Repository
+
+**Option 1: Standard Git Clone**
 ```bash
 git clone https://github.com/utkarsh-brainstorm/InkStrokes.git
 cd InkStrokes
 ```
 
-**Having trouble cloning?** If Git asks for username/password:
+**Option 2: Easy Clone Script (Recommended for beginners)**
 ```bash
-# Try this instead
+curl -O https://raw.githubusercontent.com/utkarsh-brainstorm/InkStrokes/main/easy-clone.sh
+chmod +x easy-clone.sh
+./easy-clone.sh
+```
+
+**Option 3: If Git asks for username/password**
+```bash
 GIT_TERMINAL_PROMPT=0 git clone https://github.com/utkarsh-brainstorm/InkStrokes.git
 ```
 
